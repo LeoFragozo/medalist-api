@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :athlete do
-    name { "MyString" }
-    gender { "MyString" }
-    country { "MyString" }
+    name { "Lucarelli" }
+    gender { "Male" }
+    country { "Brazil" }
   end
 end
