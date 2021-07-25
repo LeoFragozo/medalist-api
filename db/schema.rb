@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_24_172100) do
+ActiveRecord::Schema.define(version: 2021_07_25_165620) do
 
   create_table "athletes", force: :cascade do |t|
     t.string "name"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_07_24_172100) do
   end
 
   create_table "medals", force: :cascade do |t|
-    t.string "type"
+    t.string "kind"
     t.string "competition"
     t.integer "athlete_id", null: false
     t.datetime "created_at", precision: 6, null: false

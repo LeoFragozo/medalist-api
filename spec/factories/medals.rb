@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :medal do
-    type { "" }
-    competition { "MyString" }
-    athlete { nil }
+    kind { "Silver" }
+    competition { "Skateboarding" }
+    athlete
   end
 end
